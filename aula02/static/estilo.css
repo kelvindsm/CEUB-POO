@@ -3,6 +3,11 @@ h1 {
     font-family: Verdana;
 }
 
+h2 {
+    color: royalblue;
+    font-family: Verdana;
+}
+
 hr {
     border-width: 2px;
     border-style: dotted;

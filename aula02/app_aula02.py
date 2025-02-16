@@ -51,7 +51,7 @@ def fatorial(numero):
         result *= contador
         fat += str(contador) + "x"
 
-    fat = fat[0:len(fat) - 2] + " = " +str(result)
+    fat = fat[0:len(fat) - 1] + " = " + str(result)
     return render_template('fatorial.html', numero=numero, fat=fat)
 
 if __name__ == '__main__':
