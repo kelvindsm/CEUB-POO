@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     dh = datetime.now()
-    saida_dh = dh.isoformat(" ", timespec='seconds')
+    # saida_da = dh.isoformat(" ", timespec='seconds')
+    saida_dh = dh.strftime("%d/%m/%Y %H:%M:%S")
     hora = dh.hour
     cumprimento = "Bom dia"
     if hora > 11 and hora < 19:
