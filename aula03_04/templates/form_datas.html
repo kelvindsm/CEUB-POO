@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Datas</title>
+    <link rel="stylesheet" type="text/css" href="/static/estilo.css">
+    <link rel="stylesheet" href="/static/botao.css">
 </head>
 <body>
+<h1>Processamento de Datas</h1>
+<form action="/datas" method="post">
+    <label for="data_ini">Data Inicial:</label>
+    <input type="date" id="data_ini" name="data_ini" required><br><br>
 
+    <label for="data_fim">Data Final:</label>
+    <input type="date" id="data_fim" name="data_fim" required><br><br>
+
+
+     <button class="button">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front"> Processamento de Datas!</span>
+    </button>
+</form>
 </body>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar nomes</title>
+    <link rel="stylesheet" type="text/css" href="/static/estilo.css">
+    <link rel="stylesheet" href="/static/botao.css">
+</head>
+<body>
+<center>
+<h1>Ordenar nomes</h1>
+<form action="/ordenar" method="post">
+    <label for="n1">Nome 1:</label>
+    <input type="text" id="n1" name="nome1" required><br><br>
+
+    <label for="n2">Nome 2:</label>
+    <input type="text" id="n2" name="nome2" required><br><br>
+
+    <label for="n3">Nome 3:</label>
+    <input type="text" id="n3" name="nome3" required><br><br>
+
+
+    <button class="button">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Ordenar</span>
+    </button>
+</form>
+</center>
+</body>
+</html>
