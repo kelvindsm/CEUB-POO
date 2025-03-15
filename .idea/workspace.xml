@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58dcf0a-58bd-4b6c-b4fd-8b5b0c19f494" name="Changes" comment="aula 03">
-      <change afterPath="$PROJECT_DIR$/aula03_04/templates/form_ordenar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula03_04/templates/ordenar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filtros/datas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/datas.py" afterDir="false" />
+    <list default="true" id="f58dcf0a-58bd-4b6c-b4fd-8b5b0c19f494" name="Changes" comment="aula 04">
+      <change afterPath="$PROJECT_DIR$/aula06/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula06/crud_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula06/teste_sqlalchemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula03_04/app_aula03_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula03_04/app_aula03_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula03_04/templates/datas.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula03_04/templates/datas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula03_04/templates/form_calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula03_04/templates/form_calc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula03_04/templates/form_datas.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula03_04/templates/form_datas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula03_04/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula03_04/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -79,7 +73,9 @@
     "Flask server.Flask (aula03_04/app_aula03_04.py).executor": "Run",
     "Python.app.executor": "Run",
     "Python.app_aula02.executor": "Run",
+    "Python.crud_local.executor": "Run",
     "Python.produtos.executor": "Run",
+    "Python.teste_sqlalchemy.executor": "Run",
     "RunOnceActivity.CodyAccountHistoryMigration": "true",
     "RunOnceActivity.CodyAccountsIdsRefresh": "true",
     "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
@@ -90,14 +86,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kelvin.martins/PycharmProjects/CEUB-POO/aula03_04/templates",
+    "last_opened_file_path": "C:/Users/kelvin.martins/PycharmProjects/CEUB-POO/aula06",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Flask Console",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,6 +107,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kelvin.martins\PycharmProjects\CEUB-POO\aula06" />
       <recent name="C:\Users\kelvin.martins\PycharmProjects\CEUB-POO\aula03_04\templates" />
     </key>
   </component>
@@ -274,7 +271,9 @@
       <workItem from="1739665653469" duration="1592000" />
       <workItem from="1739749433070" duration="2596000" />
       <workItem from="1740175326095" duration="10130000" />
-      <workItem from="1740781605508" duration="7246000" />
+      <workItem from="1740781605508" duration="8080000" />
+      <workItem from="1741815995172" duration="472000" />
+      <workItem from="1741991783047" duration="6901000" />
     </task>
     <task id="LOCAL-00001" summary="aula01">
       <option name="closed" value="true" />
@@ -300,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740183910036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aula 04">
+      <option name="closed" value="true" />
+      <created>1740789112350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740789112350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,13 +317,16 @@
     <MESSAGE value="aula01" />
     <MESSAGE value="Ajustes visuais" />
     <MESSAGE value="aula 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 03" />
+    <MESSAGE value="aula 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 04" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CEUB_POO$Flask__aula02_app_aula02_py_.coverage" NAME="Flask (aula02/app_aula02.py) Coverage Results" MODIFIED="1740180934489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEUB_POO$crud_local.coverage" NAME="crud_local Coverage Results" MODIFIED="1741999245268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06" />
     <SUITE FILE_PATH="coverage/BasicFlask$Flask__aula02_app_aula02_py_.coverage" NAME="Flask (aula02/app_aula02.py) Coverage Results" MODIFIED="1739577378495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BasicFlask$produtos.coverage" NAME="produtos Coverage Results" MODIFIED="1738974738295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula01" />
-    <SUITE FILE_PATH="coverage/CEUB_POO$BasicFlask.coverage" NAME="BasicFlask Coverage Results" MODIFIED="1740783785359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEUB_POO$BasicFlask.coverage" NAME="BasicFlask Coverage Results" MODIFIED="1741994193688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CEUB_POO$Flask__aula03_04_app_aula03_04_py_.coverage" NAME="Flask (aula03_04/app_aula03_04.py) Coverage Results" MODIFIED="1740788187911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEUB_POO$teste_sqlalchemy.coverage" NAME="teste_sqlalchemy Coverage Results" MODIFIED="1741996420608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06" />
   </component>
 </project>
