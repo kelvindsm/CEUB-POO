@@ -5,7 +5,7 @@ empr = Empregado()
 def listar():
     lista = empr.read_all()
     for obj in lista:
-        print(obj.idt_empregado, '|', obj.nme_empregado, '|', obj.sts_empregado)
+        print(obj.idt_empregado, '|', obj.mat_empregado, '|', obj.nme_empregado, '|',obj.sts_empregado, '|', obj.tel_empregado, '|', obj.rml_empregado, '|', obj.pwd_empregado)
 
 emp = empr.new_object()
 emp.eml_empregado = 'carlos.alberto@ceub.com'

@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58dcf0a-58bd-4b6c-b4fd-8b5b0c19f494" name="Changes" comment="aula 06">
-      <change afterPath="$PROJECT_DIR$/model/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/empregado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/incluir_adm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/prestador.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/setor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/teste_ocorrencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/teste_tb_empregado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/teste_tb_local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tipo_ocorrencia.py" afterDir="false" />
+    <list default="true" id="f58dcf0a-58bd-4b6c-b4fd-8b5b0c19f494" name="Changes" comment="aula 07 atividade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/teste_tb_empregado.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/teste_tb_empregado.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +276,7 @@
       <workItem from="1740781605508" duration="8080000" />
       <workItem from="1741815995172" duration="472000" />
       <workItem from="1741991783047" duration="7897000" />
-      <workItem from="1742596451996" duration="5866000" />
+      <workItem from="1742596451996" duration="7200000" />
     </task>
     <task id="LOCAL-00001" summary="aula01">
       <option name="closed" value="true" />
@@ -328,7 +318,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741999352603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aula 07">
+      <option name="closed" value="true" />
+      <created>1742602581463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742602581463</updated>
+    </task>
+    <task id="LOCAL-00007" summary="aula 07">
+      <option name="closed" value="true" />
+      <created>1742602598578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742602598578</updated>
+    </task>
+    <task id="LOCAL-00008" summary="aula 07 atividade">
+      <option name="closed" value="true" />
+      <created>1742602616061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742602616061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,16 +354,18 @@
     <MESSAGE value="aula 03" />
     <MESSAGE value="aula 04" />
     <MESSAGE value="aula 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 06" />
+    <MESSAGE value="aula 07" />
+    <MESSAGE value="aula 07 atividade" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 07 atividade" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CEUB_POO$Flask__aula02_app_aula02_py_.coverage" NAME="Flask (aula02/app_aula02.py) Coverage Results" MODIFIED="1740180934489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CEUB_POO$crud_local.coverage" NAME="crud_local Coverage Results" MODIFIED="1741999245268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06" />
     <SUITE FILE_PATH="coverage/BasicFlask$Flask__aula02_app_aula02_py_.coverage" NAME="Flask (aula02/app_aula02.py) Coverage Results" MODIFIED="1739577378495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CEUB_POO$local.coverage" NAME="local Coverage Results" MODIFIED="1742599986981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
-    <SUITE FILE_PATH="coverage/CEUB_POO$teste_tb_empregado.coverage" NAME="teste_tb_empregado Coverage Results" MODIFIED="1742602245638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/CEUB_POO$teste_tb_empregado.coverage" NAME="teste_tb_empregado Coverage Results" MODIFIED="1742603478548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/BasicFlask$produtos.coverage" NAME="produtos Coverage Results" MODIFIED="1738974738295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula01" />
-    <SUITE FILE_PATH="coverage/CEUB_POO$teste_tb_local.coverage" NAME="teste_tb_local Coverage Results" MODIFIED="1742599892114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/CEUB_POO$teste_tb_local.coverage" NAME="teste_tb_local Coverage Results" MODIFIED="1742602913721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/CEUB_POO$BasicFlask.coverage" NAME="BasicFlask Coverage Results" MODIFIED="1742599881121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CEUB_POO$Flask__aula03_04_app_aula03_04_py_.coverage" NAME="Flask (aula03_04/app_aula03_04.py) Coverage Results" MODIFIED="1740788187911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CEUB_POO$teste_sqlalchemy.coverage" NAME="teste_sqlalchemy Coverage Results" MODIFIED="1741996420608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06" />
